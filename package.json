@@ -1,0 +1,31 @@
+{
+  "name": "@lumjs/events",
+  "version": "1.0.0",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": 
+  {
+    "@lumjs/core": "^1.38.2"
+  },
+  "devDependencies":
+  {
+    "@lumjs/build": "^1.1.0",
+    "@lumjs/tests": "^2.0.0"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js",
+    "build-meta": "lum-build",
+    "build-jsdoc": "jsdoc -c ./jsdoc.js",
+    "build-docs": "npm run build-meta && npm run build-jsdoc"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.events.js.git"
+  },
+  "license": "MIT"
+}
