@@ -3,8 +3,8 @@
 
 const plan = 0;
 const t = require('@lumjs/tests').new({module, plan});
-const Ev = require('../lib/events');
-const {U,F,TYPES} = require('../lib/types');
+const Ev = require('../lib/index');
+const {U,F,TYPES} = require('@lumjs/core/types');
 
 const TV = 
 {
