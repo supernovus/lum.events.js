@@ -63,6 +63,8 @@ t.is(obj2.name, TV.name4, 'obj2.name after second rename');
  * - Using a function for `targets`
  * - The `setupEvent` option
  * - Using an object handler
+ * - Stateful events
+ * - The `status.process` properties
  * - Any other advanced features
  */
 
