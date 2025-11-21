@@ -1,7 +1,7 @@
 // Tests for events module
 "use strict";
 
-const plan = 0;
+const plan = 28;
 const t = require('@lumjs/tests').new({module, plan});
 const Ev = require('../lib/index');
 const {U,F,TYPES} = require('@lumjs/core/types');
